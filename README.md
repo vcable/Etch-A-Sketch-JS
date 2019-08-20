@@ -1,1 +1,1 @@
-The aim of this project is to essentially make an Etch-A-Sketch that works in your browser.  I'll be using JavaScript, HTML, and CSS.  
+This fun app aims to recreate an Etch-A-Sketch in your browser.  Simply select your grid size and brush color, and get to drawing!

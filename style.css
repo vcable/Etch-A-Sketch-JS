@@ -1,0 +1,30 @@
+
+.cell {
+    border: 1px solid black;
+}
+
+.cellBlack {
+    border: 1px solid black;
+background-color:black;
+}
+
+
+#container {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    height: 400px;
+    width: 500px;
+    margin: auto;
+   
+    
+}
+
+:root {
+    
+    --grid-cols: 1;
+    --grid-rows: 1;
+    
+}
+
