@@ -3,22 +3,23 @@
 <head>
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <div id="wrapper">
 <div id="buttons">
-    <button id="clear" onclick = "clearGrid()">Clear Grid</button>
-    <button id="input" onclick = "getInput()">Custom Grid</button>
-    <button id="colorRed" onclick = "colorRed()">Red</button>
-    <button id="colorBlack" onclick = "colorBlack()">Black</button>
-    <button id="colorBlue" onclick = "colorBlue()">Blue</button>
-    <button id="colorGreen" onclick = "colorGreen()">Green</button>
-    <button id="colorRandom" onclick = "colorRandom()">Random Colors</button>
+    <button id="clear" class="button" onclick = "clearGrid()">Clear Grid</button>
+    <button id="input" class="button" onclick = "getInput()">Custom Grid</button>
+    <button id="colorRed" class="button" onclick = "colorRed()">Red</button>
+    <button id="colorBlack" class="button" onclick = "colorBlack()">Black</button>
+    <button id="colorBlue" class="button" onclick = "colorBlue()">Blue</button>
+    <button id="colorGreen" class="button" onclick = "colorGreen()">Green</button>
+    <button id="colorRandom" class="button" onclick = "colorRandom()">Random Colors</button>
 </div>
     <div id="container">
     </div>
-
+</div>
 </body>
 <script src="app.js"></script>
